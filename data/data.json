@@ -1,11 +1,68 @@
 {
   "users": [
-    { 
+    {
       "username": "admin",
       "password": "secret",
-      "id" : 0,
-      "admin": true 
+      "id": 0,
+      "admin": true
+    },
+    {
+      "username": "mikkel",
+      "password": "mikkel",
+      "id": 1,
+      "admin": true
+    },
+    {
+      "username": "mikkel2",
+      "password": "mikkel",
+      "id": 2,
+      "admin": false
+    },
+    {
+      "username": "mikkel3",
+      "password": "mikkel",
+      "id": 3,
+      "admin": false
+    },
+    {
+      "username": "mikkel5",
+      "password": "mikkel",
+      "id": 4,
+      "admin": false
+    },
+    {
+      "username": "mikkel66",
+      "password": "mikkel",
+      "id": 5,
+      "admin": false
+    },
+    {
+      "username": "mikkel222",
+      "password": "mikkel",
+      "id": 6,
+      "admin": false
     }
   ],
-  "games": []
+  "games": [
+    {
+      "gameid": 0,
+      "userid": 0,
+      "score": 9001
+    },
+    {
+      "gameid": 1,
+      "userid": 1,
+      "score": 7600
+    },
+    {
+      "gameid": 2,
+      "userid": 0,
+      "score": 8000
+    },
+    {
+      "gameid": 3,
+      "userid": 1,
+      "score": 300
+    }
+  ]
 }
