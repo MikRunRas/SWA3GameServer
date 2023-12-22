@@ -1,11 +1,156 @@
 {
   "users": [
-    { 
+    {
       "username": "admin",
-      "password": "secret",
-      "id" : 0,
-      "admin": true 
+      "password": "admin",
+      "id": 0,
+      "admin": true
+    },
+    {
+      "username": "mikkel",
+      "password": "mikkel22",
+      "id": 1,
+      "admin": true
+    },
+    {
+      "username": "mikkel2",
+      "password": "mikkel",
+      "id": 2,
+      "admin": false
+    },
+    {
+      "username": "mikkel3",
+      "password": "mikkel",
+      "id": 3,
+      "admin": false
+    },
+    {
+      "username": "mikkel5",
+      "password": "mikkel",
+      "id": 4,
+      "admin": false
+    },
+    {
+      "username": "mikkel66",
+      "password": "mikkel",
+      "id": 5,
+      "admin": false
+    },
+    {
+      "username": "mikkel222",
+      "password": "mikkel",
+      "id": 6,
+      "admin": false
+    },
+    {
+      "username": "tester",
+      "password": "mikkel",
+      "id": 7,
+      "admin": false
+    },
+    {
+      "username": "mikkel666",
+      "password": "mikkel22",
+      "id": 8,
+      "admin": false
     }
   ],
-  "games": []
+  "games": [
+    {
+      "user": 0,
+      "id": 1,
+      "score": 130,
+      "completed": true
+    },
+    {
+      "user": 0,
+      "id": 2,
+      "score": 60,
+      "completed": true
+    },
+    {
+      "user": 1,
+      "id": 3,
+      "score": 90,
+      "completed": true
+    },
+    {
+      "user": 0,
+      "id": 4,
+      "score": 90,
+      "completed": true
+    },
+    {
+      "user": 2,
+      "id": 5,
+      "score": 60,
+      "completed": true
+    },
+    {
+      "user": 2,
+      "id": 6,
+      "score": 100,
+      "completed": true
+    },
+    {
+      "user": 7,
+      "id": 7,
+      "score": 130,
+      "completed": true
+    },
+    {
+      "user": 1,
+      "id": 8,
+      "score": 60,
+      "completed": true
+    },
+    {
+      "user": 1,
+      "id": 9,
+      "score": 130,
+      "completed": true
+    },
+    {
+      "user": 0,
+      "id": 10,
+      "score": 90,
+      "completed": true
+    },
+    {
+      "user": 1,
+      "id": 11,
+      "score": 100,
+      "completed": true
+    },
+    {
+      "user": 1,
+      "id": 12,
+      "score": 100,
+      "completed": true
+    },
+    {
+      "user": 1,
+      "id": 13,
+      "score": 130,
+      "completed": true
+    },
+    {
+      "user": 1,
+      "id": 14,
+      "score": 970,
+      "completed": true
+    },
+    {
+      "user": 0,
+      "id": 15,
+      "score": 880,
+      "completed": true
+    },
+    {
+      "user": 0,
+      "id": 16,
+      "score": 1420,
+      "completed": true
+    }
+  ]
 }
